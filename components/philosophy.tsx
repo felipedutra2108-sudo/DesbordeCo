@@ -34,27 +34,15 @@ export function Philosophy() {
         </div>
 
         <h2 className="font-display text-stamp text-[clamp(2rem,9vw,9rem)] uppercase leading-[0.92] tracking-tight">
-          {WORDS.map((w, i) => (
-            <span
-              key={`${w.text}-${i}`}
-              className="inline-block overflow-hidden align-top"
-            >
-              <motion.span
-                initial={{ y: '110%' }}
-                whileInView={{ y: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  delay: i * 0.07,
-                  duration: 0.8,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
-                className={`inline-block pr-[0.25em] ${w.brand ? 'text-brand' : ''}`}
-              >
-                {w.text}
-              </motion.span>{' '}
-            </span>
-          ))}
-        </h2>
+  {WORDS.map((w, i) => (
+    <span
+      key={`${w.text}-${i}`}
+      className={`inline-block pr-[0.25em] ${w.brand ? 'text-brand' : ''}`}
+    >
+      {w.text}
+    </span>
+  ))}
+</h2>
 
         <div className="mt-16 grid grid-cols-1 gap-px overflow-hidden border-2 border-cream bg-cream md:grid-cols-3">
           {[
