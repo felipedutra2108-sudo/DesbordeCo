@@ -27,7 +27,7 @@ export function Philosophy() {
 
       <div className="relative mx-auto max-w-[1600px]">
         <div className="mb-8 flex items-center gap-3">
-          <SplatIcon className="size-6 text-brand" />
+          <SplatIcon className="size-12 text-brand" />
           <span className="inline-block border-2 border-cream bg-brand px-3 py-1 text-sm font-black uppercase tracking-[0.2em] text-brand-foreground">
             La actitud
           </span>
