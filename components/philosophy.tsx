@@ -52,11 +52,11 @@ export function Philosophy() {
             },
             {
               t: 'Producto real',
-              d: 'Carne fresca, pan del día y salsas hechas por nosotros. Nada congelado.',
+              d: 'Carne fresca, pan del día y salsas hechas por nosotros. Nada trucho.',
             },
             {
-              t: 'Energía de calle',
-              d: 'Proyecto de Montevideo, hecho a pulmón y con mucha actitud. Sin pose.',
+              t: 'Energía de ACÁ',
+              d: 'Local, hecho a pulmón y con mucha actitud.',
             },
           ].map((c, i) => (
             <div key={c.t} className="relative overflow-hidden bg-secondary p-8">
