@@ -77,7 +77,7 @@ export function Hero() {
               transition={{ delay: 0.1, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className="block text-[clamp(2.4rem,9vw,8rem)]"
             >
-              Mucho sabor,
+              Mucho sabor
             </motion.span>
           </span>
           <span className="block overflow-hidden">
@@ -95,7 +95,7 @@ export function Hero() {
 
         <div className="mt-10 flex flex-col items-start gap-6 md:flex-row md:items-end md:justify-between">
           <p className="max-w-md text-pretty text-base font-medium text-foreground/90 md:text-lg">
-            Smash burgers de calle, a la plancha y sin vueltas. Dejá la pose,
+            Dejá la pose,
             mostrá el desborde. Pedí por WhatsApp y listo.
           </p>
           <a
