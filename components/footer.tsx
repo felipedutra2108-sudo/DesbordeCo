@@ -89,7 +89,7 @@ export function Footer() {
         {/* Logo gigante en tipografía bubbly */}
         <div className="mt-16 overflow-hidden">
           <p className="font-logo text-[clamp(2.5rem,16vw,15rem)] uppercase leading-[0.85] tracking-tighter text-foreground">
-            DESB<span className="text-brand">ORDE</span><span className="text-brand">.CO</span>
+            DESBORDE<span className="text-brand">.</span><span className="text-brand">CO</span>
           </p>
         </div>
 
