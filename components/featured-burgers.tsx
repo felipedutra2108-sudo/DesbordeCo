@@ -9,7 +9,7 @@ const BURGERS = [
   {
     n: '01',
     name: 'DESBORDADA',
-    desc: 'Doble carne, cheddar, panceta,cebolla crispy y salsa barbacoa.',
+    desc: 'Doble carne, cheddar, panceta, cebolla crispy y salsa barbacoa.',
     price: '$530',
     img: '/burger-1.png',
     rotate: '-1.5deg',
