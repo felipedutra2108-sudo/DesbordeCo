@@ -8,17 +8,17 @@ import { SplatIcon } from '@/components/icons'
 const BURGERS = [
   {
     n: '01',
-    name: 'LA CLÁSICA',
-    desc: 'Doble medallón smasheado, cheddar fundido, pepinillos y salsa de la casa.',
-    price: '$290',
+    name: 'DESBORDADA',
+    desc: 'Doble carne, cheddar, panceta,cebolla crispy y salsa barbacoa.',
+    price: '$530',
     img: '/burger-1.png',
     rotate: '-1.5deg',
   },
   {
     n: '02',
-    name: 'BACON DELUXE',
-    desc: 'Bacon crocante, cebolla caramelizada y triple cheddar. Sin culpa.',
-    price: '$350',
+    name: 'PROVO CO',
+    desc: 'Doble carne, cheddar, provolone, cebolla colorada y chimichurri cremoso.',
+    price: '$580',
     img: '/burger-2.png',
     rotate: '1.5deg',
   },
