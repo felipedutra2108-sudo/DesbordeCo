@@ -24,9 +24,9 @@ const BURGERS = [
   },
   {
     n: '03',
-    name: 'LA PICANTE',
-    desc: 'Jalapeños, pepper jack y salsa roja brava. Para los que se animan.',
-    price: '$330',
+    name: 'EXACTA',
+    desc: 'Doble carne, cheddar, lechuga, tomate, cebolla y salsa desborde.',
+    price: '$510',
     img: '/burger-3.png',
     rotate: '-1deg',
   },
