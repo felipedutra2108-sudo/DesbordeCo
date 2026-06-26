@@ -38,9 +38,9 @@ export function Navbar() {
           {/* Logo — tipografía bubbly como la marca */}
           <a href="#top" className="flex items-center gap-2 leading-none">
             <span className="font-logo text-xl uppercase leading-none tracking-tight md:text-2xl">
-              DESB<span className="text-brand">ORDE</span>
+              DESBORDE<span className="text-brand">.</span>
             </span>
-            <span className="font-logo text-xl text-brand uppercase leading-none md:text-2xl">.CO</span>
+            <span className="font-logo text-xl text-brand uppercase leading-none md:text-2xl">CO</span>
           </a>
 
           <div className="hidden items-center gap-8 md:flex">
