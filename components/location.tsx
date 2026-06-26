@@ -21,7 +21,7 @@ export function Location() {
             Dónde estamos
           </span>
           <h2 className="font-display text-[clamp(2rem,8vw,5.5rem)] uppercase leading-[0.92] tracking-tight">
-            Sacate las<span className="text-brand">ganas</span>
+            Sacate las <span className="text-brand">ganas</span>
           </h2>
 
           <div className="mt-10 space-y-8">
@@ -80,7 +80,7 @@ export function Location() {
           <iframe
             title="Mapa DESBORDE.CO — Luis Franzini 818, Punta Carretas"
             src="https://www.google.com/maps?q=Luis+Franzini+818+Montevideo+Uruguay&output=embed"
-            className="h-full w-full grayscale invert-[0] contrast 0"
+            className="h-full w-full"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
