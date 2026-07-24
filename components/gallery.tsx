@@ -5,9 +5,9 @@ import { motion } from 'motion/react'
 import { INSTAGRAM_URL } from '@/lib/site'
 
 const SHOTS = [
-  { src: '/gallery-1.png', span: 'md:col-span-7 md:row-span-2', label: 'Noche de calle', rotate: '-1deg' },
+  { src: '/gallery-1.png', span: 'md:col-span-7 md:row-span-2', label: 'Noche de burguer acompañado', rotate: '-1deg' },
   { src: '/gallery-2.png', span: 'md:col-span-5', label: 'Papas voladoras', rotate: '1.5deg' },
-  { src: '/gallery-3.png', span: 'md:col-span-5', label: 'En la plancha', rotate: '-1.5deg' },
+  { src: '/gallery-3.png', span: 'md:col-span-5', label: 'Chrispy bacon', rotate: '-1.5deg' },
   { src: '/gallery-4.png', span: 'md:col-span-4', label: 'Pared roja', rotate: '1deg' },
   { src: '/gallery-5.png', span: 'md:col-span-4', label: 'Para llevar', rotate: '-1deg' },
   { src: '/gallery-6.png', span: 'md:col-span-4', label: 'El festín', rotate: '1.5deg' },
