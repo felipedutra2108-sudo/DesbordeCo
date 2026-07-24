@@ -37,7 +37,7 @@ export function Gallery() {
         {SHOTS.map((s, i) => (
           <motion.figure
             key={s.src}
-            initial={{ opacity: 0, scale: 0.96 }}
+            initial={{ opacity: 1, scale: 1 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.6, delay: (i % 3) * 0.08 }}
